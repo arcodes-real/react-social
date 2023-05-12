@@ -14,7 +14,7 @@ import { FaRss,
     import { Users } from "../../dummyData";
     import CloseFriend from "../closeFriends/closeFriend";
 
-export default function sidebar() {
+export default function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebarWrapper">
@@ -58,6 +58,7 @@ export default function sidebar() {
         </ul>
         <button className="sidebarButton">Show More</button>
         <hr className="sidebarHr" />
+        
         <ul className="sidebarFriendList">
             {Users.map((u) => (
                 <CloseFriend key={u.id} user={u} />

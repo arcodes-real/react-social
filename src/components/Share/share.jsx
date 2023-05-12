@@ -8,8 +8,8 @@ export default function Share() {
     <div className='share'>
         <div className='shareWrapper'>
             <div className='shareTop'>
-                <img className='shareProfileImg' src="/assets/persons/Archisman DAtta.jpeg" alt=""></img>
-                <input placeholder="What's in your mind Archisman?" className='shareInput'></input>
+                <img className='shareProfileImg' src="/assets/persons/1.jpeg" alt=""></img>
+                <input placeholder="What's in your mind Safak?" className='shareInput'></input>
             </div>
             <hr className='shareHr' />
             <div className='shareBottom'>
@@ -40,4 +40,4 @@ export default function Share() {
       
     </div>
   );
-}
+} 

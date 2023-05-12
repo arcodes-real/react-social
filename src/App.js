@@ -1,5 +1,8 @@
 import Home from "./pages/home/home";
-// import Topbar from "./components/TopBar/topbar";
+import Profile from "./pages/Profile/profile";
+import Login from "./pages/Login/login";
+import Register from "./pages/Register/register";
+
 
 
 
