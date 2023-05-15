@@ -11,3 +11,7 @@
     object-fit: cover;
     margin-right: 10px;
   }
+
+  .sidebarFriendName {
+    font-family: Arial, Helvetica, sans-serif;
+  }
