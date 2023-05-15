@@ -31,7 +31,7 @@ export default function Post({post}) {
             <span className='postDate'>{post.date}</span>
           </div>
           <div className='postTopright'>
-            <FaEllipsisV />
+            <FaEllipsisV />  
           </div>
         </div>
         <div className='postCenter'>
