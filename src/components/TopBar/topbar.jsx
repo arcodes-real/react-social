@@ -1,12 +1,16 @@
 import "./topbar.css";
 import { FaSearch, FaUserCircle, FaComment, FaBell } from "react-icons/fa";
+import {Link} from 'react-router-dom';
 
-export default function Topbar() {
+export default function Topbar(user) {
+  const PF = process.env.REACT_APP_PUBLIC_FOLDER;
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
+        <Link to="/" style={{textDecoration:"none"}}>
         <span className="logo">MyTribe</span>
-      </div>
+        </Link>
+        </div>
       <div className="topbarCenter">
         <div className="searchbar">
           <FaSearch className="searchIcon" />
@@ -35,7 +39,7 @@ export default function Topbar() {
             <span className="topbarIconBadge">1</span>
           </div>
         </div>
-        <img src="/assets/persons/Archisman DAtta.jpeg" alt="img" className="topbarImg"/>
+        <img src={`${PF}persons/Archisman DAtta.jpeg`} alt="img" className="topbarImg"/>
       </div>
     </div>
   );

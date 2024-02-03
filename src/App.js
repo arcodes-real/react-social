@@ -3,13 +3,23 @@ import Profile from "./pages/Profile/profile";
 import Login from "./pages/Login/login";
 import Register from "./pages/Register/register";
 
-
+import {
+  Routes,
+  Route,
+} from 'react-router-dom';
 
 
 function App() {
   return (
     <div>
-      <Home />
+      <Routes>
+        
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Home />} />
+          <Route path = "/profile/:username" element={<Profile />} />
+       
+      </Routes>
     </div>
   );
 }

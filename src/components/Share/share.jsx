@@ -9,7 +9,7 @@ export default function Share() {
         <div className='shareWrapper'>
             <div className='shareTop'>
                 <img className='shareProfileImg' src="/assets/persons/1.jpeg" alt=""></img>
-                <input placeholder="What's in your mind Safak?" className='shareInput'></input>
+                <textarea placeholder="What's in your mind Safak?" className='shareInput'></textarea>
             </div>
             <hr className='shareHr' />
             <div className='shareBottom'>
